@@ -1,0 +1,74 @@
+<html>
+<head>
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+	<style>
+	#inner{
+	    transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	    -webkit-transform: rotate(45deg);
+	    -o-transform: rotate(45deg);
+	    -moz-transform: rotate(45deg); 
+	    background-color:silver;
+	    width:100px;
+	    height:100px;
+	    top: 20px;
+	    left: -50px;
+	    position:relative;
+	    -moz-border-radius: 0px;
+	    border-radius: 0px;
+	}
+	
+	#outer {
+	    position: absolute;
+	    width: 70px;
+	    height: 140px;    
+	    top:20px;
+	    left:50px;
+	     overflow: hidden;    
+	    border: 1px solid red;
+	}
+	</style>
+</head>
+<body id="mainBody">
+
+    <h1 class="tooltip">Todo List</h1>
+    <input type="text" id="enterData" onkeyup="enter(event)">
+    <div id="todoDiv">
+        <ul>
+        </ul>
+    </div>
+    <div>
+    	<span class="tooltip"></span>
+    <div>
+	<div id="outer"><div id="inner">&nbsp;</div></div>
+<script>
+    var todos = [
+        {done: true, todo:"laundry"},
+        {done: false, todo:"pick up clothes"}
+    ];
+    $(document).ready( function() {
+                for(i=0; i<todos.length; i++){
+                    var todoList = "<li>" + todos[i].todo + "</li>";
+                    $("#todoDiv ul").append(todoList);
+                }
+            }
+    );
+    function enter(e) {
+        if(e.keyCode == 13) {
+            todos.push({todo:$("#enterData").val(), done: false});
+            refresh();
+        }
+    };
+    function refresh(){
+        $("#todoDiv ul").empty();
+        for(i=0; i<todos.length; i++){
+            var todoList = "<li>" + todos[i].todo + "</li>";
+            $("#todoDiv ul").append(todoList);
+        }
+    }
+</script>
+
+
+</body>
+</html>

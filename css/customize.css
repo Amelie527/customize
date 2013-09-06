@@ -1,0 +1,261 @@
+ul {
+	list-style: none;
+}
+
+#left-column {
+	width: 25%;
+	height:100%;
+	float: left;
+}
+
+#mid-column {
+	width: 40%;
+	height:100%;
+	float: left;
+}
+
+#right-column {
+	width: 35%; 
+	height:100%;
+	float:left;
+}
+
+img {
+	border: 1px dashed #D4D3D3;
+}
+
+#img-container {
+	position: relative;
+}
+
+#customize-widget .option {
+	width: 350px;
+	border: 1px dashed #D4D3D3;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+
+#customize-widget .option.inner {
+	width: 150px;
+	float: left;
+	margin: 20px 10px;
+}
+
+p, span {
+      font-family: 'Karla', Arial, Sans-Serif;
+      letter-spacing: 0.1em;
+      font-size: 16px
+}
+
+#customizeHeader {
+      position: absolute;
+}
+
+#Wrapper {
+       width: 100%;
+       margin: 50px 20px 0;
+}
+
+#Container {
+       width: 100%;
+}
+
+#logo-container {
+       margin: 7px 0 10px 80px;
+}
+
+.fly-out.active {
+	display: block;
+	position: relative;
+}
+
+.fly-out {
+	display: none;
+	position: absolute;
+}
+
+.fabric-container .fly-out ul {
+       position: absolute;
+       top: 63px;
+       background-color: white;
+       z-index: 5;
+       width: 150px;
+       line-height: 15px;
+       margin-left: 10px;
+       text-align: center;
+       border: 1px dashed #d4d3d3;
+}
+
+.fabric-container .fly-out ul li:hover {
+       background-color: #ebeaea;
+}
+
+.option ul {
+       liststyle: none
+}
+
+#customize-container .flexslider {
+	width: 400px;
+        height: 90px;
+        float: left;
+}
+
+div.fabric-container span {
+        margin-left: 20px;
+}
+
+div.fabric-container{
+        color: #d4d3d3;
+        cursor: default;
+}
+
+div.fabric-container.enabled {
+        color: #5a5353;
+}
+
+.nav-element {
+        width: 70px;
+        height: 70px;
+        display: inline-block;
+        background-color: #ebeaea;
+        border-radius: 50px;
+}
+
+#element-2 .inner-border {
+        border: 1px dashed white;
+        color: white;
+}
+
+#element-2 {
+        background-color: #fcc4ab;
+}
+
+.inner-border {
+        width: 60px;
+        height: 60px;
+        display: inline-block;
+        border-radius: 61px;
+        position: relative;
+        top: 4px;
+        left: 4px;
+        border: 1.5px dashed #aca9a9;
+}
+
+#title-text {
+        font-size: 16px;
+}
+
+.nav {
+        margin: 113px 150px;
+}
+
+.nav:nth-child(1) {
+        margin: 0px 150px;
+}
+
+.nav-text {
+        font-size: 15px;
+        position: relative;
+}
+
+#nav-text-1 {
+        top: 21px;
+        left: 12px;
+}
+
+#nav-text-2 {
+        top: 22px;
+        left: 6px;
+}
+
+#nav-text-3 {
+        top: 10px;
+        left: 12px;
+        font-size: 12px;
+}
+
+#nav-text-4 {
+        top: 22px;
+        left: 5px;
+}
+
+.btn {
+        background-color: #fcc4ab;
+        border: 1px #fff dashed;
+        color: #fff;
+        cursor: pointer;
+        font-size: 12px;
+        display: inline-block;
+        padding: 5px;
+        outline: 3px solid #fcc4ab;
+        margin: 3px;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: 'Karla', Arial, Sans-Serif;
+        letter-spacing: 0.1em;
+        font-weight: normal;
+        line-height: normal;
+        -moz-transition: background-color 150ms ease;
+        -webkit-transition: background-color 150ms ease;
+        -o-transition: background-color 150ms ease;
+        transition: background-color 150ms ease, outline 150ms ease;
+}
+
+#confirm-btn {
+        position: relative; 
+        top: 90px;
+        left: 70px;
+}
+
+#right-colum img {
+	border: 1px dashed #aca9a9;
+}
+
+#thumbnail-container {
+	position: absolute;
+	display: inline-block;
+	top: 480px;
+	left: 400px;
+}
+
+#img-container {
+	position: relative;
+}
+
+.flexslider li {
+	border: 1px solid transparent;
+}
+
+.flexslider li.selected  {
+	border: 1px dashed #aca9a9;
+}
+
+.main-image {
+	position: absolute;
+}
+
+#image-layer0 {
+	z-index: 2;
+}
+
+#image-layer1 {
+	z-index: 1;
+}
+
+#image-layer2 {
+	z-index: 3;
+} 
+
+#style-container span.selected {
+        color: #aca9a9;
+}   
+
+#shape-selector-container {
+        width: 700px;
+        margin: 0 auto;
+}
+
+#shape-selector-container .flexslider {
+        margin: 0
+}
